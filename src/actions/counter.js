@@ -1,7 +1,12 @@
 const increment = () => ({
-  type: 'INCREMENT',
+    type: 'INCREMENT',
 })
 
 const decrement = () => ({
-  type: 'DECREMENT',
+    type: 'DECREMENT',
 })
+
+export {
+    increment,
+    decrement
+}
