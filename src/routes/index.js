@@ -11,7 +11,7 @@ const routes = (
     <NavBar />
     <Switch>
       <Route exact path="/" component={Home} />
-      <Route path="/hellо" component={Hello} />
+      <Route path="/hello" component={Hello} />
       <Route path="/counter" component={Counter} />
       <Route component={NoMatch} />
     </Switch>
